@@ -1,0 +1,31 @@
+.fetch-container{
+display: grid;
+grid-template-columns: 400px 400px;
+grid-template-rows: 400px 400px;
+grid-gap: 400px;
+}
+
+.fetch{
+  margin-left: 100px;
+  margin-top: 100px;
+  
+}
+
+.text{
+ margin-left: 400px;
+ width: 400px;
+ height: 400px;
+ font-size: 25px;
+}
+
+
+.fetch .img{
+    width: 700px;    
+    height: 600px;
+    margin-left: -100px;
+}
+
+.news{
+    text-decoration: none;
+    color: #000;
+}

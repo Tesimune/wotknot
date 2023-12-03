@@ -1,0 +1,23 @@
+.news-container{
+    display:grid;
+    grid-template-columns: 350px 350px;
+    grid-row-gap: 600px;
+    grid-column-gap: 100px;
+    grid-template-rows: 350px 350px;
+    margin-top: -1450px;
+}
+
+.img{
+    width: 350px;
+    height: 250px;
+}
+
+
+
+.news .text{
+    width: 350px;
+    height: 350px;
+    margin-left: -0.110px;
+    margin-top: -20px;
+}
+

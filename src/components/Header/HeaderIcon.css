@@ -1,0 +1,35 @@
+.header{
+    text-decoration: none;
+}
+
+h1{
+    color: gray;
+}
+
+.wot{
+	color: rgba(117, 116, 116, 0.5);
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+	font-size: auto;
+	font-weight: bold;
+	font-family: impact;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.head{
+    margin-left: 100px;
+}
+

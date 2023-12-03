@@ -1,0 +1,8 @@
+.ad-container{
+    margin-left: 900px;
+    margin-top: -900px;
+}
+
+.ad-container .image{
+    border-radius: 10px;
+}

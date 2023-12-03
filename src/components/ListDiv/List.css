@@ -1,0 +1,62 @@
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center; /* Adjust to your preference */
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.navbar.scrolled {
+	background-color: #000; /* or any other color you want when scrolled */
+  }
+
+
+.navbar-logo img {
+	width: auto;
+	height: 70px; /* Adjust the size of your logo */
+	transition: height 0.3s ease;
+  }
+  
+  .navbar.scrolled .navbar-logo img {
+	height: 30px; /* Adjust for the scrolled state */
+  }
+  
+  .navbar-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+  }
+  
+  .nav-item {
+	display: flex;
+  }
+  
+  .nav-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 70px;
+	padding: 0 20px; /* Adjust to your preference */
+	border: 2px solid #ddd; /* Adjust to match the image */
+	text-decoration: none;
+	color: #333;
+	font-family: 'Inter', sans-serif; /* Assuming you have the 'Inter' font */
+	font-size: 1.2rem;
+	font-weight: bolder;
+	transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover{
+	text-decoration: underline;
+	color: green;
+  }
+  /* You might want to add :hover, :active, :focus styles for .nav-link */
+
+  .navbar.scrolled .nav-link {
+	color: #ccc; /* Color of links when navbar is scrolled */
+  }
+  

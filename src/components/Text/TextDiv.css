@@ -1,0 +1,12 @@
+.contain{
+    width: 1200px;
+    height: 200px;
+    font-size: 30px;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+
+.contain h1{
+    color: white;
+    margin-top: 400px;
+}
