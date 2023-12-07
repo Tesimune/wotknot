@@ -26,18 +26,18 @@ export default function FetchAPI() {
     <div className="fetch-container">
       <div className="fetch">
         <a href="/news">
-          {news[0] && (
-            <img src={news[0].urlToImage} className="img" alt={news[0].title} />
+          {news && (
+            <img src={news[0]?.urlToImage} className="img" alt={news[0].title} />
           )}
         </a>
       </div>
       <div className="fetch text">
         <a href="/news" className="news">
-          {news[0] && (
+          {news && (
             <div className="text name" style={{ marginTop: "130px" }}>
-              <h1>{news[0].source.name}</h1>
-              <h2>{news[0].title}</h2>
-              <p>{news[0].description}</p>
+              <h1>{news[0]?.source.name}</h1>
+              <h2>{news[0]?.title}</h2>
+              <p>{news[0]?.description}</p>
             </div>
           )}
         </a>
