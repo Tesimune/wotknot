@@ -1,5 +1,11 @@
-.container{
+.decontainer{
     width: 1250px;
     height: 300px;
     background-color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+    .decontainer{
+     display: none;
+    }
+ }

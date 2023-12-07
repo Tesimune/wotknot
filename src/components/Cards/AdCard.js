@@ -1,6 +1,7 @@
 import React from 'react';
 import Shop from './../../images/shopDetail.png';
 import './AdCard.css'
+import UpdateCard from './UpdateCard';
 
 export default function AdCard() {
   return (
@@ -8,6 +9,7 @@ export default function AdCard() {
         <div className='ads'>
             <img src={Shop} alt='WOTKNOTMAG' className='image'/>
         </div>
+        <UpdateCard/>
     </div>
   )
 }

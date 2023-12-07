@@ -1,5 +1,5 @@
-import React,{ useState, useEffect} from 'react'
-import './NewsCards.css'
+import React,{ useState, useEffect} from 'react';
+import './NewsCards.css';
 import AdCard from './AdCard';
 
 export default function NewsCard() {

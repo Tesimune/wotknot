@@ -1,0 +1,17 @@
+.more {
+    border: #000 solid 2px;
+    color: #000;
+    width: 430px;
+    height: 100px;
+    margin: 50px auto; /* Centers the .more box horizontally */
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers content horizontally in the flex container */
+    align-items: center; /* Centers content vertically in the flex container */
+}
+
+.more a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}

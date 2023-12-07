@@ -9,7 +9,7 @@ import TextDiv from '../Text/TextDiv'
 
 export default function HeaderIcon() {
   return (
-    <div style={{ marginTop:"-20px"}}>
+    <div  style={{ marginTop:"-20px"}}>
     <div className='container' style={{
       backgroundImage:`url(${Wot})`,
       backgroundSize: 'cover',
@@ -21,7 +21,7 @@ export default function HeaderIcon() {
       <ul className='ul'>
         <li className='head'>
       <Link to={'/'} className='header'>
-      <img src={Logo} alt="Wotknotmag" style={{width:"100px", height:"100px", marginTop:"10px", marginLeft:"-100px"}}/>
+      <img src={Logo} alt="Wotknotmag" className='imag' style={{width:"100px", height:"100px", marginTop:"10px", marginLeft:"-100px"}}/>
       </Link>
       </li>
 

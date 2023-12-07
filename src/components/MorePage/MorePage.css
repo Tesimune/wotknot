@@ -1,0 +1,51 @@
+.more-contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    gap: 16px; /* Spacing between grid items */
+    width: 1200px; /* Set a max-width for the container */
+     /* Center the container */
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #ddd;
+  }
+  
+  .news-header {
+    grid-column: 1 / -1; /* Header spans all columns */
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-left: 550px;
+  }
+  
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 16px; /* Spacing between grid items */
+  }
+  
+  .news-items {
+    background: #fff; /* Background color for the news item */
+    padding: 10px;
+    border: 1px solid #ddd; /* Border for the news item */
+  }
+  
+  .more-images {
+    width: 350px;
+     /* Make the image fill the container */
+    height: 250px; /* Keep the original aspect ratio */
+  }
+  
+  .advertisement {
+    grid-column: 3; /* Position the advertisement in the third column */
+    background: #eee; /* Example color for the advertisement area */
+    padding: 10px;
+    text-align: center;
+  }
+
+.more-contain{
+    display: grid;
+    grid-template-columns: 200px;
+}
+
+.mores{
+    margin-left: 20px;
+}

@@ -1,0 +1,24 @@
+.images{
+    width: 100px;
+    height: 100px;
+}
+
+.news-titles{
+    margin-left: -100px;
+    margin-top: -2px;
+    width: 300px;
+    height: 70px;
+    border: 2px #d3d3d3 solid;
+    padding: 15px;
+}
+.updates{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px;
+}
+
+.update-container{
+    margin-left: -50px;
+}
+
+

@@ -1,0 +1,110 @@
+.footer {
+    background-color: #111; /* Adjust color to match the design */
+    color: #fff;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif; /* Use the appropriate font-family */
+    width: 1400px;
+    margin-left: -100px;
+  }
+  
+  .footer-upper,
+  .footer-lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a{
+    color: slategray;
+  }
+
+  .footer-social a{
+    color: gray;
+  }
+
+  .footer-links a,
+  .footer-social a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 12px; /* Adjust size to match the design */
+  }
+  
+  .footer-links a:hover,
+  .footer-social a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-upper{
+    width: 800px;
+    margin-left: 300px;
+  }
+  
+  .footer-lower {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px; /* Adjust size to match the design */
+    margin: 20px 0;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .email-input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px; /* Adjust size to match the design */
+    border: none;
+    border-radius: 4px;
+    background-color:#3d3d3d;
+    width: 500px;
+    height: 50px;
+    color: #000;
+  }
+  
+  .sign-up-button {
+    padding: 10px 20px;
+    font-size: 16px; /* Adjust size to match the design */
+    border: 2px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #222; /* Adjust color to match the design */
+    color: #fff;
+    width: 200px;
+    height: 59px;
+    background-color: transparent;
+    margin-top: 50px;
+  }
+
+  .sign-up-button:hover{
+    text-decoration: underline;
+  }
+
+  .foot-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+  }
+
+  .spans{
+    margin-left: 100px;
+    color: #3d3d3d;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 320px) {
+    .footer-upper,
+    .footer-lower {
+      flex-direction: column;
+    }
+  
+    .footer-links a,
+    .footer-social a {
+      margin-bottom: 10px;
+    }
+  }
+  

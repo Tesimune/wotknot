@@ -4,7 +4,7 @@ import ClothBanner from './ClothBanner'
 
 export default function ShoppingDetails() {
   return (
-    <div className='container'>
+    <div className='decontainer'>
       <ClothBanner/>
     </div>
   )
